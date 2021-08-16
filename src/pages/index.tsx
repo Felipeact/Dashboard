@@ -30,7 +30,7 @@ export default function SignIn() {
     await new Promise(resolve => setTimeout(resolve, 2000))
    
     console.log(values)
-    router.push('/dashboar')
+    router.push('/dashboard')
   }
 
   return (
